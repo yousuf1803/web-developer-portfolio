@@ -11,6 +11,14 @@ main{
     max-width: 1140px;
     margin:0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+
+}
+.text-center{
+    text-align: center;
+}
 .header{
     background-image: url('../images/developer.png'),url('../images/header_bg.png') ;
     background-repeat: no-repeat;
@@ -84,12 +92,12 @@ nav ul li a{
     width: 584px;
     height: 686px;
 }
-.section-tittle{
+.section-tittle, .skills-tittle{
     font-weight: bold;
     font-size: 35px;
     color: #181818;
 }
-.section-description{
+.section-description, skills-description{
     font-size: 18px;
     color: #757575;
 }
@@ -101,7 +109,7 @@ nav ul li a{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
 }
 .item-description{
     font-weight: 600;
@@ -110,5 +118,16 @@ nav ul li a{
     display: flex;
     justify-content: space-around;
 }
+.skills-container{
+    display: flex;
+    gap:24px
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px #0006
+    
+}
+
 
 
